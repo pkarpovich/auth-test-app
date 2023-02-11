@@ -1,0 +1,28 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
